@@ -7,11 +7,11 @@ def igrat():
           f"Победил тот, кто взял последний камень\n-----------")
     while cumney > 0:
         if cumney < 4:
-            kompik_vibral = cumney
+            komp_vibral = cumney
         else:
-            kompik_vibral = random.randint(1, 3)
-        cumney -= kompik_vibral
-        print(f"Компьютер выбрал {kompik_vibral}. Осталось камней: {cumney}\n")
+            komp_vibral = random.randint(1, 3)
+        cumney -= komp_vibral
+        print(f"Компьютер выбрал {komp_vibral}. Осталось камней: {cumney}\n")
         if cumney <= 0:
             print("К сожалению, вы проиграли!\n")
             break
