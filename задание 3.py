@@ -1,6 +1,6 @@
 import random
 
-#абоба + абоба
+
 def igrat():
     cumney = random.randint(4, 30)
     print(f"-----------\nВ кучке {cumney} камней\nВы можете брать 1, 2 или 3 камня\n"
